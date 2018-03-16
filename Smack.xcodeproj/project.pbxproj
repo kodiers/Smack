@@ -12,6 +12,7 @@
 		AC0AC83E2057626D001E12A0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC83D2057626D001E12A0 /* LoginVC.swift */; };
 		AC7891FA2058A13000AFC657 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7891F92058A13000AFC657 /* CreateAccountVC.swift */; };
 		AC7D2D4F2050BC73007AD505 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D2D4E2050BC73007AD505 /* GradientView.swift */; };
+		AC833DD3205B4B6F004EBB4C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC833DD2205B4B6F004EBB4C /* AuthService.swift */; };
 		ACDCC8F3204F5BBA00E4CB6F /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCC8F2204F5BBA00E4CB6F /* ChatVC.swift */; };
 		ACDCC8F5204F5BCA00E4CB6F /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCC8F4204F5BCA00E4CB6F /* ChannelVC.swift */; };
 		ACE58E9B204E0D2900909BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE58E9A204E0D2900909BEB /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 		AC0AC83D2057626D001E12A0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		AC7891F92058A13000AFC657 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		AC7D2D4E2050BC73007AD505 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		AC833DD2205B4B6F004EBB4C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		ACDCC8F2204F5BBA00E4CB6F /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		ACDCC8F4204F5BCA00E4CB6F /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		ACE58E97204E0D2900909BEB /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,14 @@
 			path = utilities;
 			sourceTree = "<group>";
 		};
+		AC833DD1205B4B58004EBB4C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC833DD2205B4B6F004EBB4C /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		ACDCC8EF204F5B8B00E4CB6F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		ACE58E99204E0D2900909BEB /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				AC833DD1205B4B58004EBB4C /* Services */,
 				AC0AC83A20575D26001E12A0 /* utilities */,
 				ACDCC8F1204F5B9900E4CB6F /* Model */,
 				ACDCC8F0204F5B9300E4CB6F /* View */,
@@ -287,6 +298,7 @@
 				ACDCC8F5204F5BCA00E4CB6F /* ChannelVC.swift in Sources */,
 				ACDCC8F3204F5BBA00E4CB6F /* ChatVC.swift in Sources */,
 				AC7891FA2058A13000AFC657 /* CreateAccountVC.swift in Sources */,
+				AC833DD3205B4B6F004EBB4C /* AuthService.swift in Sources */,
 				AC0AC83E2057626D001E12A0 /* LoginVC.swift in Sources */,
 				AC7D2D4F2050BC73007AD505 /* GradientView.swift in Sources */,
 				ACE58E9B204E0D2900909BEB /* AppDelegate.swift in Sources */,
