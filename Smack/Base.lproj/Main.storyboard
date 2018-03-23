@@ -217,6 +217,9 @@
                                         <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="Dwl-r4-148" eventType="touchUpInside" id="mdv-21-9md"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmv-47-3Wh">
                                 <rect key="frame" x="62.5" y="336" width="250" height="30"/>
@@ -289,6 +292,10 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="xjz-OQ-swT">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -297,15 +304,20 @@
                             <constraint firstItem="cMR-44-gJ5" firstAttribute="top" secondItem="uXF-ab-cxr" secondAttribute="bottom" constant="40" id="DaV-l8-GNa"/>
                             <constraint firstItem="cMR-44-gJ5" firstAttribute="centerX" secondItem="HOO-cj-aA7" secondAttribute="centerX" id="E3D-xZ-jxU"/>
                             <constraint firstItem="fmv-47-3Wh" firstAttribute="top" secondItem="Pt0-hL-3UD" secondAttribute="bottom" id="ERs-dg-Lhn"/>
+                            <constraint firstItem="xjz-OQ-swT" firstAttribute="centerY" secondItem="HOO-cj-aA7" secondAttribute="centerY" constant="-100" id="IVO-Ic-as3"/>
                             <constraint firstItem="Pt0-hL-3UD" firstAttribute="top" secondItem="cMR-44-gJ5" secondAttribute="bottom" constant="40" id="YCB-4m-Bhh"/>
                             <constraint firstItem="uXF-ab-cxr" firstAttribute="top" secondItem="9ID-II-Y3h" secondAttribute="top" constant="60" id="dud-dD-3l1"/>
                             <constraint firstItem="uXF-ab-cxr" firstAttribute="centerX" secondItem="HOO-cj-aA7" secondAttribute="centerX" id="e18-Xj-QA3"/>
                             <constraint firstItem="pmB-Q4-Qfi" firstAttribute="top" secondItem="9ID-II-Y3h" secondAttribute="top" id="g34-yv-YM7"/>
+                            <constraint firstItem="xjz-OQ-swT" firstAttribute="centerX" secondItem="HOO-cj-aA7" secondAttribute="centerX" id="ij1-Nb-p9c"/>
                             <constraint firstItem="fmv-47-3Wh" firstAttribute="centerX" secondItem="HOO-cj-aA7" secondAttribute="centerX" id="oo3-rg-8d1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9ID-II-Y3h"/>
                     </view>
                     <connections>
+                        <outlet property="passwordTxt" destination="7AR-ZL-H1M" id="573-G3-AaV"/>
+                        <outlet property="spinner" destination="xjz-OQ-swT" id="ECM-AD-fV7"/>
+                        <outlet property="usernameTxt" destination="XTJ-sn-pZu" id="plf-ks-5bC"/>
                         <segue destination="j4L-Wy-xra" kind="show" identifier="toCreateAccount" id="Jae-QN-NeE"/>
                     </connections>
                 </viewController>
