@@ -13,6 +13,9 @@
 		AC03FF0C2061E341003D873A /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03FF0B2061E341003D873A /* AvatarCell.swift */; };
 		AC0AC83C20575D38001E12A0 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC83B20575D38001E12A0 /* constants.swift */; };
 		AC0AC83E2057626D001E12A0 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AC83D2057626D001E12A0 /* LoginVC.swift */; };
+		AC124D532069BC9200200F98 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC124D522069BC9200200F98 /* MessageService.swift */; };
+		AC124D552069BCD500200F98 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC124D542069BCD500200F98 /* Channel.swift */; };
+		AC124D572069C75D00200F98 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC124D562069C75D00200F98 /* ChannelCell.swift */; };
 		AC7891FA2058A13000AFC657 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7891F92058A13000AFC657 /* CreateAccountVC.swift */; };
 		AC7D2D4F2050BC73007AD505 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D2D4E2050BC73007AD505 /* GradientView.swift */; };
 		AC7EB41C2063240E0006F355 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7EB41B2063240E0006F355 /* CircleImage.swift */; };
@@ -37,6 +40,9 @@
 		AC03FF0B2061E341003D873A /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		AC0AC83B20575D38001E12A0 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
 		AC0AC83D2057626D001E12A0 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AC124D522069BC9200200F98 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		AC124D542069BCD500200F98 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		AC124D562069C75D00200F98 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		AC7891F92058A13000AFC657 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		AC7D2D4E2050BC73007AD505 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		AC7EB41B2063240E0006F355 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
@@ -100,6 +106,7 @@
 			children = (
 				AC833DD2205B4B6F004EBB4C /* AuthService.swift */,
 				AC03FF072061D636003D873A /* UserDataService.swift */,
+				AC124D522069BC9200200F98 /* MessageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 				ACD40164205F456A0053E918 /* RoundedButton.swift */,
 				AC03FF0B2061E341003D873A /* AvatarCell.swift */,
 				AC7EB41B2063240E0006F355 /* CircleImage.swift */,
+				AC124D562069C75D00200F98 /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 		ACDCC8F1204F5B9900E4CB6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AC124D542069BCD500200F98 /* Channel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,10 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACDCFB6E2064839400E7F659 /* ProfileVC.swift in Sources */,
+				AC124D572069C75D00200F98 /* ChannelCell.swift in Sources */,
 				ACDCC8F5204F5BCA00E4CB6F /* ChannelVC.swift in Sources */,
 				AC03FF0A2061E1EF003D873A /* AvatarPickerVC.swift in Sources */,
 				ACD40165205F456A0053E918 /* RoundedButton.swift in Sources */,
+				AC124D552069BCD500200F98 /* Channel.swift in Sources */,
 				AC7EB41C2063240E0006F355 /* CircleImage.swift in Sources */,
+				AC124D532069BC9200200F98 /* MessageService.swift in Sources */,
 				ACDCC8F3204F5BBA00E4CB6F /* ChatVC.swift in Sources */,
 				AC03FF082061D636003D873A /* UserDataService.swift in Sources */,
 				AC7891FA2058A13000AFC657 /* CreateAccountVC.swift in Sources */,
