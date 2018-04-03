@@ -33,6 +33,7 @@
 		ACE58EA2204E0D2900909BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE58EA1204E0D2900909BEB /* Assets.xcassets */; };
 		ACE58EA5204E0D2900909BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE58EA3204E0D2900909BEB /* LaunchScreen.storyboard */; };
 		ACE58EB0204E13AE00909BEB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE58EAF204E13AE00909BEB /* SWRevealViewController.m */; };
+		ACF756F02072F1C600389A32 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF756EF2072F1C600389A32 /* MessageCell.swift */; };
 		ACFF07B9206DAF59008B84D3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF07B8206DAF59008B84D3 /* Message.swift */; };
 		ACFF07BB206DBCF0008B84D3 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF07BA206DBCF0008B84D3 /* KeyboardBoundView.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		ACE58EAD204E13AC00909BEB /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		ACE58EAE204E13AE00909BEB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		ACE58EAF204E13AE00909BEB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ACF756EF2072F1C600389A32 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		ACFF07B8206DAF59008B84D3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		ACFF07BA206DBCF0008B84D3 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		C13BDDEBAC5D458DE403B03F /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				AC7EB41B2063240E0006F355 /* CircleImage.swift */,
 				AC124D562069C75D00200F98 /* ChannelCell.swift */,
 				ACFF07BA206DBCF0008B84D3 /* KeyboardBoundView.swift */,
+				ACF756EF2072F1C600389A32 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				AC124D572069C75D00200F98 /* ChannelCell.swift in Sources */,
 				ACDCC8F5204F5BCA00E4CB6F /* ChannelVC.swift in Sources */,
 				AC03FF0A2061E1EF003D873A /* AvatarPickerVC.swift in Sources */,
+				ACF756F02072F1C600389A32 /* MessageCell.swift in Sources */,
 				ACD40165205F456A0053E918 /* RoundedButton.swift in Sources */,
 				ACFF07B9206DAF59008B84D3 /* Message.swift in Sources */,
 				AC124D552069BCD500200F98 /* Channel.swift in Sources */,
